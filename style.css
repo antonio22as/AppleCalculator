@@ -1,0 +1,70 @@
+.calc_block {
+    width: 300px;
+    height: 600px;
+    background-color: #000;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    border-width: 0px;
+    font-size: 1.7rem;
+    color: #fdfdfd;
+    font-weight: 800;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.bg-orange {
+    background-color: #ff9501;
+}
+
+.bg-grey {
+    background-color: #a6a6a6;
+}
+
+.buttons_block {
+    display: grid;
+    grid-template-areas: "ac plus-minus percent devide"
+                "seven eight nine perX"
+                "four five six minus"
+                "one two three plus"
+                "zero zero dot equal";
+    justify-items: center;
+    grid-gap: 7px;
+    
+}
+
+.zero {
+    grid-area: zero;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.text_area {
+    height: 250px;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+    padding: 10px;
+}
+
+
+.btn:active {
+    filter: brightness(150%);
+}
+
+.output_result {
+    color: white;
+    font-size: 80px;
+    margin-bottom: -0.5px;
+}
